@@ -1,0 +1,344 @@
+
+<!doctype html>
+  <html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Eorror</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <!--=== fontawesome-free-5.15.2 ===-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!--=== Google Font  ===-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&display=swap" rel="stylesheet">
+    <!--=== Bootstrap 4 ===-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--=== Owl carousel 2.3.4===-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!--=== Main Css ===-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--=== Responsive Css ===-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+  </head>
+  <body>
+
+    <style>
+      .terms label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+    line-height: 23px;
+    color: var(--gray);
+}
+.terms input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+.terms label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #000000;
+    -webkit-box-shadow: 0 1px 2px rgb(0 0 0 / 5%), inset 0px -15px 10px -12px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 5%), inset 0px -15px 10px -12px rgb(0 0 0 / 5%);
+    padding: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: -30px;
+    margin-right: 8px;
+    margin-top: 0px;
+}
+
+
+.terms input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 5px;
+    height: 10px;
+    border: solid #000000;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(
+45deg
+);
+    -ms-transform: rotate(45deg);
+    transform: rotate(
+45deg
+);
+}
+    </style>
+
+    <div class="container py-15">
+      <div class="terms">
+        <input type="checkbox" id="terms">
+        <label for="terms">I have read and accepted the <a href="#">privacy policy</a> and  <a href="">general conditions</a></label>
+      </div>
+    </div>
+
+    <!-- Categories Page Start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2">
+          <div id="sidebar">
+            <h3>CART</h3>
+            <div id="cart">
+              <span class="empty">No items in cart.</span>       
+            </div>
+            <div class="container">
+              <div id="accordion" class="accordion">
+                  <div class="card mb-0">
+                      <div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
+                          <a class="card-title">
+                             <p> Item 1</p>
+                             <p><i class="rotate fas fa-minus "></i> <i class="rotate-minus fas fa-minus"></i> </p>
+                          </a>
+                      </div>
+                      <div id="collapseOne" class="card-body collapse" data-parent="#accordion" >
+                          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                              aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                              craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          </p>
+                      </div>
+                      <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                          <a class="card-title">
+                            Item 2
+                          </a>
+                      </div>
+                      <div id="collapseTwo" class="card-body collapse" data-parent="#accordion" >
+                          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                              aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                              craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          </p>
+                      </div>
+                      <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                          <a class="card-title">
+                            Item 3
+                          </a>
+                      </div>
+                      <div id="collapseThree" class="collapse" data-parent="#accordion" >
+                          <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                              aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. samus labore sustainable VHS.
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+            <h3>CATEGORIES</h3>
+            <div class="checklist categories">
+              <ul>
+                <li>
+                  <a href="#">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">Accesories</label>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                    <label class="form-check-label" for="flexCheckDefault1">Accesories</label>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                    <label class="form-check-label" for="flexCheckDefault2">Accesories</label>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                    <label class="form-check-label" for="flexCheckDefault3">Accesories</label>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                    <label class="form-check-label" for="flexCheckDefault4">Accesories</label>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-10">
+          <div class="right-side">
+
+            <div class="product-grid">
+              <h6 class="best-saller">Best Saller</h6>
+              <div class="product-image">
+                <a href="#">
+                  <img class="pic-1" src="assets/img/img-1.jpg">
+                </a>
+                <div class="product-content">
+                  <div>
+                    <a class="add-to-cart quick-view1 btn" href="">+ Add To Cart</a>
+                  </div>
+                  <div>
+                    <a class="add-to-cart quick-view2  btn" href="">+ Add To Cart</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="product-bottom">
+                <div class="product-title">
+                  <div class="categories-border">
+                     <h6>ANYDAY</h6>
+                     <p>John Lewis & Partners Duvet, 10.5 Tog</p>
+                  </div>
+                  
+                  <div class="price categories-border">
+                    <strong>$100-$200</strong>
+                  </div>
+                  <ul class="rating categories-border">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="product-grid">
+              <h6 class="best-saller">Best Saller</h6>
+              <div class="product-image">
+                <a href="#">
+                  <img class="pic-1" src="assets/img/img-1.jpg">
+                </a>
+                <div class="product-content">
+                  <div>
+                    <a class="add-to-cart quick-view1 btn" href="">+ Add To Cart</a>
+                  </div>
+                  <div>
+                    <a class="add-to-cart quick-view2  btn" href="">+ Add To Cart</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="product-bottom">
+                <div class="product-title">
+                  <div class="categories-border">
+                     <h6>ANYDAY</h6>
+                     <p>John Lewis & Partners Duvet, 10.5 Tog</p>
+                  </div>
+                  
+                  <div class="price categories-border">
+                    <strong>$100-$200</strong>
+                  </div>
+                  <ul class="rating categories-border">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="product-grid">
+              <h6 class="best-saller">Best Saller</h6>
+              <div class="product-image">
+                <a href="#">
+                  <img class="pic-1" src="assets/img/img-1.jpg">
+                </a>
+                <div class="product-content">
+                  <div>
+                    <a class="add-to-cart quick-view1 btn" href="">+ Add To Cart</a>
+                  </div>
+                  <div>
+                    <a class="add-to-cart quick-view2  btn" href="">+ Add To Cart</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="product-bottom">
+                <div class="product-title">
+                  <div class="categories-border">
+                     <h6>ANYDAY</h6>
+                     <p>John Lewis & Partners Duvet, 10.5 Tog</p>
+                  </div>
+                  
+                  <div class="price categories-border">
+                    <strong>$100-$200</strong>
+                  </div>
+                  <ul class="rating categories-border">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="product-grid">
+              <h6 class="best-saller">Best Saller</h6>
+              <div class="product-image">
+                <a href="#">
+                  <img class="pic-1" src="assets/img/img-1.jpg">
+                </a>
+                <div class="product-content">
+                  <div>
+                    <a class="add-to-cart quick-view1 btn" href="">+ Add To Cart</a>
+                  </div>
+                  <div>
+                    <a class="add-to-cart quick-view2  btn" href="">+ Add To Cart</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="product-bottom">
+                <div class="product-title">
+                  <div class="categories-border">
+                     <h6>ANYDAY</h6>
+                     <p>John Lewis & Partners Duvet, 10.5 Tog</p>
+                  </div>
+                  
+                  <div class="price categories-border">
+                    <strong>$100-$200</strong>
+                  </div>
+                  <ul class="rating categories-border">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--=== All Plugin ===-->
+    <!--============= Jquery-3.6.0 =============-->
+    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!--=== Bootstrap4 js ===-->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+    <!--=== Main js ===-->
+    <script type="text/javascript" src="assets/js/main.js"></script>  
+  </body>
+  </html>
